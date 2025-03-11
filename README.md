@@ -19,8 +19,7 @@ GoScout is a powerful and efficient file search tool written in Go. It allows us
 ### Clone the repository
 
 ```sh
-git clone https://github.com/dracuxan/GoScout.git
-cd GoScout
+git clone https://github.com/dracuxan/GoScout.git && cd GoScout
 ```
 
 ### Install dependencies
@@ -40,7 +39,7 @@ make build
 Run the application with the directory path and search term:
 
 ```sh
-./bin/fs /path/to/directory search_term
+./bin/fs -p <directory_path> -q <search_query>
 ```
 
 ### Run tests
@@ -66,7 +65,7 @@ Contributions are welcome! Follow these steps:
 
 ## License
 
-This project is licensed under the MIT License.
+Check [LICENSE](LICENSE) for more information.
 
 ---
 

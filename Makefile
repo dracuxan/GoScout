@@ -37,6 +37,6 @@ help:
 	@echo "  format     Format the code"
 	@echo "  deps       Install dependencies"
 	@echo "Examples:"
-	@echo "  make run ARGS=\"-p <file_path> -q <search_query>\"   # Run with flags"
+	@echo "  make run ARGS=\"-p <directory_path> -q <search_query>\"   # Run with flags"
 	@echo "  make build																						# Build only"
 

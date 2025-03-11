@@ -3,6 +3,9 @@ name: Makefile CI
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - "README.md"
+      - "LICENSE"
   pull_request:
     branches: ["main"]
 

@@ -27,7 +27,7 @@ func main() {
 	start = time.Now()
 	idx := make(utils.Index)
 	idx.Add(docs)
-	log.Printf("Loaded %d documents in %v", len(docs), time.Since(start))
+	log.Printf("Indexed %d documents in %v", len(docs), time.Since(start))
 
 	start = time.Now()
 	matchIds := idx.Search(query)

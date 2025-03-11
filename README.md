@@ -39,7 +39,7 @@ make build
 Run the application with the directory path and search term:
 
 ```sh
-./bin/fs -p <directory_path> -q <search_query>
+./bin/goscout -p <directory_path> -q <search_query>
 ```
 
 ### Run tests

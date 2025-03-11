@@ -1,4 +1,4 @@
-APP_NAME := fs
+APP_NAME := goscout
 BUILD_DIR := bin
 MAIN_FILE := main.go
 
